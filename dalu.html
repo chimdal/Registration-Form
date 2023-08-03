@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>Form</h1>
+<body>
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="Text" id="name" placeholder="Enter your name" required minlength="3" maxlength="20">
+<br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" placeholder="Enter your Email">
+<br><br>
+<label for="password">Password:</label>
+<input type="password" id="password" placeholder="Enter your password">
+<br><br>
+<label for="family">Family: <input type="text" value="Family" readonly disabled></label>
+<br><br>
+<label for="age">Age:</label>
+    <input type="number" id="age" min="18" max="100" required step="2">
+  <br><br>
+ <label> family: <input type="text" value="family"readonly disabled> </label>  
+ <br><br>
+ <label for="search">Search:</label>
+ <input type="search" name="search" id="search" min="3" max="20">
+ <br><br>
+ <label for="state of origin">State of origin:</label>
+ <input type="text" name="state of origin" id="abia" value="Abia" readonly disabled>
+ <br><br>
+ <label for="cities">Cities:</label>
+ <input type="text" list="cities">
+<datalist id="cities">
+    <option value="Lagos"></option>
+    <option value="Abuja"></option>
+    <option value="Ph"></option>
+    <option value="Anambra"></option>
+    <option value="Imo"></option>
+</datalist>
+  <br><br>
+<label for="country">Country:</label>
+<select name="country" id="country">
+    <option value="ghana">Ghana</option>
+    <option value="togo">Togo</option>
+    <option value="nigeria">Nigeria</option>
+    <option value="mali">Mali</option>
+    <option value="congo">Congo</option>
+    <option value="chad">Chad</option>
+    <option value="main option" selected disabled>select a country</option>
+</select>
+<br><br>
+<label for="tellus">Tell us about yourself</label>
+<textarea name="" id="tellus" cols="30" rows="10"></textarea>
+<br><br>
+<h2>Gender</h2>
+<label for="male">Male</label>
+<input type="radio" name="gender" id="male">
+<label for="female">Female</label>
+<input type="radio" name="gender" id="female">
+<!-- 
+    this training is for proficiency in website development
+-->
+<br><br>
+<H2>Hobbies</H2>
+<input type="checkbox" name="Hobbies" id="Swimming">
+<label for="swimming">Swimming</label>
+<input type="checkbox" name="Hobbies" id="travelling">
+<label for="travel">Travelling</label>
+<input type="checkbox" name="Hobbies" id="reading">
+<label for="reading">Reading</label>
+</fo
+    </form>
+</body>
+</html>
