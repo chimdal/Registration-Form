@@ -1,0 +1,21 @@
+table{ 
+    border: 4;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    min-height: 200px;
+    max-width: 300px;
+}
+
+#hello{
+    color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: dashed;
+}
+
+.hi{
+    background-color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
